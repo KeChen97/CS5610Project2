@@ -5,8 +5,8 @@ const router = require("./routes/index.js");
 const port = 3000;
 const bodyparser = require('body-parser');
 const MongoClient = require('mongodb').MongoClient;
-// const mongourl = process.env.MONGO_URL || 'mongodb://localhost:27017';
-const mongourl = 'mongodb+srv://CS5610:CS5610@cs5610.6eyptfc.mongodb.net/?retryWrites=true&w=majority';
+const mongourl = process.env.MONGO_URL || 'mongodb://localhost:27017';
+
 const myDB = require('./db/MyDB.js');
 
 app.use(express.static(__dirname));

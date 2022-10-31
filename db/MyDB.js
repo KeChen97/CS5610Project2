@@ -5,9 +5,8 @@ const MongoClient = require('mongodb').MongoClient;
 
 function MyMongoDB () {
     const myDB = {};
-    // const mongourl = process.env.MONGO_URL || 'mongodb://localhost:27017';
-    const mongourl =
-    "mongodb+srv://CS5610:CS5610@cs5610.6eyptfc.mongodb.net/?retryWrites=true&w=majority";
+    const mongourl = process.env.MONGO_URL || 'mongodb://localhost:27017';
+    
     const DB_NAME = "workoutDB";
     const COL_NAME = "exercises";
     const PAGE_SIZE = 20;
