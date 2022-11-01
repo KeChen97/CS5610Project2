@@ -17,13 +17,9 @@ body {
     height:100%;
 }
 
-.exercises-part {
-    display: none;
-    width: 100%;
-    padding: 25px;
-}
-
-.history-part {
+.exercises-part,
+.history-part,
+.template-part {
     display: none;
     width: 100%;
     padding: 25px;
@@ -69,6 +65,11 @@ a:hover {
 .tab {
     margin-bottom: 40px;
 }
+
+.viewAll {
+    margin: auto;
+    text-align: center;
+}
 .logout {
     position: absolute;
     bottom: 30px;
@@ -99,8 +100,9 @@ button {
     border: 1.5px solid black;
 }
 
+.foodModal,
 .workoutModal, 
-.exerciseModal{
+.exerciseModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -169,12 +171,20 @@ button {
     height:100%;
 }
 
-.templates{
+.templates {
     margin: 20px 0;
 }
+
+.suggestion {
+    font-size: 12px;
+    color: #898989;
+    padding-left: 15px;
+}
+
 .table {
     width: 100%;
-}
+} 
+
 .divider {
     border: 0.5px solid rgba(170, 168, 168, 0.603);
     height: 1px;
@@ -184,10 +194,14 @@ button {
 
 .desp {
     font-size: 14px;
-    color:darkgrey;
+    color:rgb(77, 77, 77);
 }
-.cards {
 
+.workoutHistoryCard,
+.templateCard {
+    margin: 10px;
+    padding: 15px;
+    border: 0px transparent;
 }
 
 .addCard {
@@ -219,22 +233,40 @@ button {
 }
 
 .wrapper {
-    margin: 20px;
+    margin: 15px;
     padding: 20px;
     border: 1px solid transparent;
     border-radius: 10px;
-    height: 120px;
+    height: 140px;
     background-color: #FEF9D9;
 }
+
 .wrapper2 {
-    margin: 20px;
-    padding: 20px;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
     border: 1px solid transparent;
     border-radius: 10px;
     height: 60px;
-    width: 300px;
-    background-color: #FEF9D9;
+    width: 340px;
+    background-color: #fffef6;
 }
+
+.reminderText{
+    text-align: left;
+}
+
+.calDeflictTitle,
+.wktReminderTitle {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.calDeflict {
+    font-size: 12px;
+    color: #c8c8c8;
+}
+
 .card-footer {
     margin-left: 20px;
     border: none;
@@ -244,7 +276,13 @@ button {
 .exercises {
     width: 100%;
 }
+
 .avater {
-    margin: 30px 20px;
+    margin-top: 30px;
+    /* margin: 10px; */
     border-radius: 50%;
+}
+
+.inputBox {
+    width: 60px;
 }
