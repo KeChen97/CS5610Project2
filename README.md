@@ -20,6 +20,7 @@ We designed and built a health/fitness tracking web application for users who ar
 ![Dashboard](https://github.com/KeChen97/CS5610Project2/blob/main/screenshots/dashboard.png)
 ![main](https://github.com/KeChen97/CS5610Project2/blob/main/screenshots/main.png)
 ![login](https://github.com/KeChen97/CS5610Project2/blob/main/screenshots/signin.png)
+![register](https://github.com/KeChen97/CS5610Project2/blob/main/screenshots/register.png)
 ![addworkout](https://github.com/KeChen97/CS5610Project2/blob/main/screenshots/addWorkout.png)
 
 
