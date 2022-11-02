@@ -10,6 +10,10 @@ We designed and built a health/fitness tracking web application for users who ar
 [Jeremiah Asala](https://jerryasala.github.io/)
 
 
+## Deployment 
+[Click here to use!](https://dw-tracker.herokuapp.com/)
+
+
 ## Links
 - [Link to Demo Video](https://drive.google.com/file/d/1Uav1RHBQpuVjtSH94wRM4K3EmtSRxMBx/view?usp=share_link) or [This Link](https://northeastern.zoom.us/rec/share/LDfTKRh_xN5STA276TKmkQVcO-ZTZ4HcPL4oIb85qgR7Zck52NoeZByvZFMwxe3W.CO_kVXyDnq7Tag5F) Password:FG+56Du+
 - [Link to Slides](https://docs.google.com/presentation/d/19c98coIN9SQa1l-rATm0-9zpmaBuN8h3D7CdhdXbWG8/edit?usp=sharing)
